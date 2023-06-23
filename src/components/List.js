@@ -32,7 +32,7 @@ const List = ({ list }) => {
         </>
       ) : (
         <p className="text-xl md::text-3xl text-gray-500 font-semibold">
-          No employees found
+          No employees found :(
         </p>
       )}
     </div>
