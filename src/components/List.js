@@ -24,7 +24,9 @@ const List = ({ list }) => {
                   </div>
                 </div>
                 <div>
-                  <p className="font-medium text-gray-600">{data.first_name}</p>
+                  <p className="font-medium text-gray-600 md:text-xl">
+                    {data.first_name}
+                  </p>
                 </div>
               </div>
             );
